@@ -24,9 +24,25 @@ The goal is not just visualization, but long-term dataset expansion and structur
 
 ---
 
-## 📦 Data Structure
+# 🧩 HOW TO CONTRIBUTE
 
-County metadata is stored in `countyData.json`, indexed by FIPS code:
+This project grows through structured, consistent expansion of the county dataset and improvements to the mapping system.
+We are especially looking for contributions that improve **data coverage**.
+
+---
+
+### 📊 Adding or Updating County Data
+
+County data lives in `countyData.json` and is indexed by FIPS code.
+
+When adding or updating entries:
+
+- Do not mess with the keys (`"01011:{"` for example)
+- Paste the relevant details into the relevant fields
+- Do your best to promote consistency
+- Avoid removing existing data unless explicitly improving structure (or if the data was accidentally duplicated across multiple fields)
+
+Example:
 
 ```json
 "01011": {
