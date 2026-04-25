@@ -28,8 +28,10 @@ The goal is not just visualization, but long-term dataset expansion and structur
 
 This project grows through structured, consistent expansion of the county dataset and improvements to the mapping system.
 We are especially looking for contributions that improve **data coverage**.
+--
 
----
+For access please contact `comwp6@gmail.com`
+--
 
 ### 📊 Adding or Updating County Data
 
